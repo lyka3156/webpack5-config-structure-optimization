@@ -1,0 +1,11 @@
+node_modules
+*.log
+.dea
+.DS_Store
+dll
+dist
+mobile/
+mobile.zip
+scripts/deploy
+.vscode
+.history

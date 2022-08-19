@@ -1,0 +1,22 @@
+{
+	//   "compilerOptions": {
+	//     "baseUrl": "./",
+	//     "paths": {
+	//       "@/*": ["src/*"],
+	//       "@config/*": ["config/*"],
+	//       "@components/*": ["src/components/*"],
+	//       "@containers/*": ["src/containers/*"],
+	//       "@contexts/*": ["src/contexts/*"],
+	//       "@utils/*": ["src/utils/*"],
+	//       "@static/*": ["src/static/*"],
+	//       "@stories/*": ["src/stories"],
+	//       "@biz/*": ["src/bizComponents/*"]
+	//     }
+	//   },
+	//   "include": ["src/**/*"],
+	//   "exclude": ["node_modules"]
+	// 去掉@装饰器语法带来的错误警告
+	"compilerOptions": {
+		"experimentalDecorators": true // 主要是这个
+	}
+}
